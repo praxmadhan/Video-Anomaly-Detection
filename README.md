@@ -110,7 +110,7 @@ Due to GitHub file size limitations, only a small sample dataset is included in 
 
 Clone the repository:
 
-git clone https://github.com/yourusername/video-anomaly-detection.git
+git clone https://github.com/praxmadhan/Video-Anomaly-Detection.git
 
 Navigate to the project folder:
 
