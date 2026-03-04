@@ -1,0 +1,22 @@
+Dataset Information
+
+This project uses surveillance video datasets for anomaly detection.
+
+Primary Dataset Used:
+CUHK Avenue Dataset
+
+Dataset Source:
+https://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html
+
+Dataset Description:
+The Avenue dataset contains surveillance videos recorded in an outdoor campus environment. 
+It includes normal pedestrian movements used to train the anomaly detection model.
+
+Dataset Preparation:
+1. Training videos are converted into frames using the video_to_frames.py script.
+2. Frames are stored inside dataset/train.
+3. The autoencoder model is trained only on normal frames.
+4. During real-time detection, abnormal frames produce higher reconstruction error.
+
+Note:
+Due to GitHub file size limitations, only a small sample dataset is included in this repository.
