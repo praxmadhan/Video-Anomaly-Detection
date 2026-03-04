@@ -1,0 +1,5 @@
+opencv-python
+tensorflow
+ultralytics
+numpy
+twilio
